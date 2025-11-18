@@ -55,6 +55,7 @@ function MemPool() {
       transactions = [...transactions, data.transactions]
     }
 
+    setMemPool(transactions)
     setLoading(false)
   }, [nodeSocket.readyState])
 
