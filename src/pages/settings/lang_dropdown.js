@@ -14,7 +14,7 @@ function LangDropdown(props) {
       { key: `es`, text: <><FlagIcon code="es" />&nbsp;&nbsp;{t(`Spanish`)}</> },
       { key: `de`, text: <><FlagIcon code="de" />&nbsp;&nbsp;{t(`German`)}</> },
       { key: `it`, text: <><FlagIcon code="it" />&nbsp;&nbsp;{t(`Italian`)}</> },
-      { key: `id`, text: <><FlagIcon code="it" />&nbsp;&nbsp;{t(`Bahasa Indonesia`)}</> }
+      { key: `id`, text: <><FlagIcon code="id" />&nbsp;&nbsp;{t(`Bahasa Indonesia`)}</> }
     ]
   }, [t])
 
